@@ -1,15 +1,9 @@
 /**
-* Pseudocode:
-*
-* function name: ourMap
-* parameters: callbackFn {function}, inputArray {array of anything}
-* return: newArray {array}
-*
-* Loop through INPUTARRAY, do function on each element of the array
-* Then push into NEWARRAY
-* Return NEWARRAY
-*
-*/
+ * function is given an array, it uses callbackFn on every member of array and pushes into new array
+ * @param {array} inputArray 
+ * @param {function} callbackFn 
+ * @returns {array} 
+ */
 
 function ourMap(inputArray, callbackFn) {
     const newArray = []
