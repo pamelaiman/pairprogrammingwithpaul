@@ -51,5 +51,5 @@ test("return object value", () => {
 test("return string backwards and joined", () => {
     const makeDetails = str => ({original: str, backwards: str.split("").reverse().join("")})
     expect(ourMap(["hi", "hello"], makeDetails)).toEqual([{"backwards": "ih", "original": "hi"},
-     {"backwards": "olleh","original": "hello"}]);
-});
+    {"backwards": "olleh","original": "hello"}]);
+})
