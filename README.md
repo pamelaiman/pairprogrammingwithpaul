@@ -8,6 +8,10 @@
 
 `yarn`
 
+# Enquirer
+
+'yarn add enquirer' - Enquirer was added to develop this game
+
 # Run tests
 
 `yarn test` - this will run `jest`
